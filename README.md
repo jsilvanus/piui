@@ -63,10 +63,24 @@ const cardHtml = renderAgentCard({
 
 ---
 
+## Component Catalog
+
+`piui` includes an interactive component catalog showcasing all 14 atoms and 21 molecules across all ecosystem services (`pitube`, `pivoice`, `pilight`, `pisound`, `pimatrix`, `piswitch`, `piprogram`, `picanva`, `pigateway`, `piagent`, `pirundown`).
+
+Generate the standalone catalog:
+```bash
+npm run catalog
+# Generates catalog.html and dist/catalog.html
+```
+Open `catalog.html` directly in any web browser to explore visual variants, interactive state toggles, and live previews.
+
+---
+
 ## Development
 
 ```bash
 npm install
-npm run build     # Compiles TypeScript to dist/
+npm run build     # Compiles TypeScript and generates catalog.html
+npm run catalog   # Generates the standalone component catalog
 npm run typecheck # Validates type integrity
 ```
