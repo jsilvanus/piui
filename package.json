@@ -18,6 +18,10 @@
       "types": "./dist/molecules/index.d.ts",
       "import": "./dist/molecules/index.js"
     },
+    "./layouts": {
+      "types": "./dist/layouts/index.d.ts",
+      "import": "./dist/layouts/index.js"
+    },
     "./catalog": {
       "types": "./dist/catalog.d.ts",
       "import": "./dist/catalog.js"
