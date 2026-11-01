@@ -44,7 +44,7 @@ Composed functional widgets for live broadcasting:
 ## Installation & Usage
 
 ```bash
-npm install @piecosystem/piui
+pnpm add @piecosystem/piui
 ```
 
 ```typescript
@@ -69,7 +69,7 @@ const cardHtml = renderAgentCard({
 
 Generate the standalone catalog:
 ```bash
-npm run catalog
+pnpm run catalog
 # Generates catalog.html and dist/catalog.html
 ```
 Open `catalog.html` directly in any web browser to explore visual variants, interactive state toggles, and live previews.
@@ -79,8 +79,8 @@ Open `catalog.html` directly in any web browser to explore visual variants, inte
 ## Development
 
 ```bash
-npm install
-npm run build     # Compiles TypeScript and generates catalog.html
-npm run catalog   # Generates the standalone component catalog
-npm run typecheck # Validates type integrity
+pnpm install
+pnpm run build     # Compiles TypeScript and generates catalog.html
+pnpm run catalog   # Generates the standalone component catalog
+pnpm run typecheck # Validates type integrity
 ```

@@ -1,6 +1,10 @@
 {
   "name": "@piecosystem/piui",
   "version": "0.1.0",
+  "packageManager": "pnpm@11.23.0",
+  "engines": {
+    "node": ">=22"
+  },
   "description": "Unified atomic and molecular UI component library for the Pi Broadcast Ecosystem (picontrol, piagent, pimatrix)",
   "type": "module",
   "main": "./dist/index.js",
@@ -41,5 +45,11 @@
     "dist",
     "src",
     "catalog.html"
-  ]
+  ],
+  "pi": {
+    "service": "piui",
+    "displayName": "piui",
+    "layer": "+1 Presentation Plane",
+    "kind": "library"
+  }
 }
