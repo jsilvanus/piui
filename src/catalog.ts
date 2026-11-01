@@ -90,7 +90,7 @@ const mockEcosystemServices: EcosystemComponentStatus[] = [
     name: "PiTube",
     repo: "pitube",
     description: "YouTube live broadcast lifecycle, Matrox encoder sync & closed captions sender.",
-    port: 3105,
+    port: 3500,
     status: "ok",
     latencyMs: 12,
     version: "0.2.1"
@@ -99,7 +99,7 @@ const mockEcosystemServices: EcosystemComponentStatus[] = [
     name: "PiVoice",
     repo: "pivoice",
     description: "Multi-channel audio capture, Silero VAD, STT Auditor connection & Web Radio Relay.",
-    port: 3103,
+    port: 3106,
     status: "ok",
     latencyMs: 18,
     version: "0.3.0"
@@ -108,7 +108,7 @@ const mockEcosystemServices: EcosystemComponentStatus[] = [
     name: "PiLight",
     repo: "pilight",
     description: "Tally-Ma wireless tally lights manager, mDNS discovery, 9-zone facets & director cues.",
-    port: 3200,
+    port: 3107,
     status: "ok",
     latencyMs: 8,
     version: "0.2.0"
@@ -117,7 +117,7 @@ const mockEcosystemServices: EcosystemComponentStatus[] = [
     name: "PiSound",
     repo: "pisound",
     description: "BSS BLU-100 DSP Soundweb client, multi-mix (Sali/Striimi) faders, VU meters & presets.",
-    port: 3104,
+    port: 3105,
     status: "ok",
     latencyMs: 15,
     version: "0.2.4"
@@ -126,7 +126,7 @@ const mockEcosystemServices: EcosystemComponentStatus[] = [
     name: "PiMatrix",
     repo: "pimatrix",
     description: "Raspberry Pi dual HDMI routing, crop/zoom keying, RTSP streaming & Atlona matrix.",
-    port: 3100,
+    port: 3101,
     status: "ok",
     latencyMs: 5,
     version: "0.1.3"
@@ -135,7 +135,7 @@ const mockEcosystemServices: EcosystemComponentStatus[] = [
     name: "PiSwitch",
     repo: "piswitch",
     description: "Blackmagic ATEM Mini video switcher driver, transitions, media player & tally sync.",
-    port: 3102,
+    port: 3103,
     status: "ok",
     latencyMs: 11,
     version: "0.1.8"
@@ -144,7 +144,7 @@ const mockEcosystemServices: EcosystemComponentStatus[] = [
     name: "PiProgram",
     repo: "piprogram",
     description: "Graphics/slides presentation renderer, PPTX/Canva pipeline snapshot & frame router.",
-    port: 3101,
+    port: 3200,
     status: "ok",
     latencyMs: 14,
     version: "0.2.0"
@@ -162,7 +162,7 @@ const mockEcosystemServices: EcosystemComponentStatus[] = [
     name: "PiGateway",
     repo: "pigateway",
     description: "Central event hub, SSE transcript replay ring, unified API router & state supervisor.",
-    port: 8080,
+    port: 3000,
     status: "ok",
     latencyMs: 4,
     version: "0.4.0"
@@ -171,7 +171,7 @@ const mockEcosystemServices: EcosystemComponentStatus[] = [
     name: "PiAgent",
     repo: "piagent",
     description: "Centralized Agent Infrastructure Plane: Ollama inference, priority scheduler & MCP bridge.",
-    port: 3108,
+    port: 3301,
     status: "ok",
     latencyMs: 9,
     version: "0.1.0"
