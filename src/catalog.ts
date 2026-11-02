@@ -105,8 +105,8 @@ const mockEcosystemServices: EcosystemComponentStatus[] = [
     version: "0.3.0"
   },
   {
-    name: "PiLight",
-    repo: "pilight",
+    name: "PiTally",
+    repo: "pitally",
     description: "Tally-Ma wireless tally lights manager, mDNS discovery, 9-zone facets & director cues.",
     port: 3107,
     status: "ok",
@@ -625,10 +625,10 @@ export function buildCatalogHtml(): string {
     </section>
   `;
 
-  // 6. PILIGHT SECTION
-  const pilightSection = `
-    <section id="group-pilight" class="catalog-group space-y-4">
-      ${renderSectionHeader("pilight Tally & Camera Cueing", "d:\\pilight", "Tally-Ma wireless tally devices, 9-zone segmented LED matrix with facet tracking & director camera operator cues.")}
+  // 6. PITALLY SECTION
+  const pitallySection = `
+    <section id="group-pitally" class="catalog-group space-y-4">
+      ${renderSectionHeader("pitally Tally & Camera Cueing", "d:\\pitally", "Tally-Ma wireless tally devices, 9-zone segmented LED matrix with facet tracking & director camera operator cues.")}
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div class="space-y-4">
@@ -682,7 +682,7 @@ export function buildCatalogHtml(): string {
           })}
 
           ${renderCard({
-            title: "Tally Facets Reference (pilight)",
+            title: "Tally Facets Reference (pitally)",
             subtitle: "System facets that drive the 9-zone segmented tally lights",
             icon: "hub",
             content: `
@@ -922,7 +922,7 @@ export function buildCatalogHtml(): string {
       ${rundownSection}
       ${pitubeSection}
       ${pivoiceSection}
-      ${pilightSection}
+      ${pitallySection}
       ${pisoundSection}
       ${pimatrixSection}
       ${piswitchSection}
@@ -1091,8 +1091,8 @@ export function generateFullCatalogDocument(): string {
       <button type="button" class="catalog-filter-btn px-3 py-1 rounded-full text-[11px] font-label-sm font-bold uppercase transition-all bg-surface-container-high text-on-surface hover:bg-surface-container-highest" data-group="pivoice">
         pivoice
       </button>
-      <button type="button" class="catalog-filter-btn px-3 py-1 rounded-full text-[11px] font-label-sm font-bold uppercase transition-all bg-surface-container-high text-on-surface hover:bg-surface-container-highest" data-group="pilight">
-        pilight
+      <button type="button" class="catalog-filter-btn px-3 py-1 rounded-full text-[11px] font-label-sm font-bold uppercase transition-all bg-surface-container-high text-on-surface hover:bg-surface-container-highest" data-group="pitally">
+        pitally
       </button>
       <button type="button" class="catalog-filter-btn px-3 py-1 rounded-full text-[11px] font-label-sm font-bold uppercase transition-all bg-surface-container-high text-on-surface hover:bg-surface-container-highest" data-group="pisound">
         pisound

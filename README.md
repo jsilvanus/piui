@@ -65,7 +65,7 @@ const cardHtml = renderAgentCard({
 
 ## Component Catalog
 
-`piui` includes an interactive component catalog showcasing all 14 atoms and 21 molecules across all ecosystem services (`pitube`, `pivoice`, `pilight`, `pisound`, `pimatrix`, `piswitch`, `piprogram`, `picanva`, `pigateway`, `piagent`, `pirundown`).
+`piui` includes an interactive component catalog showcasing all 14 atoms and 21 molecules across all ecosystem services (`pitube`, `pivoice`, `pitally`, `pisound`, `pimatrix`, `piswitch`, `piprogram`, `picanva`, `pigateway`, `piagent`, `pirundown`).
 
 Generate the standalone catalog:
 ```bash
