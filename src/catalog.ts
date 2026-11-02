@@ -150,8 +150,8 @@ const mockEcosystemServices: EcosystemComponentStatus[] = [
     version: "0.2.0"
   },
   {
-    name: "PiCanva",
-    repo: "picanva",
+    name: "canva-pieco-app",
+    repo: "canva-pieco-app",
     description: "Canva App presenter extension for slide progression and projector picMute blackout.",
     port: 3106,
     status: "ok",
@@ -865,7 +865,7 @@ export function buildCatalogHtml(): string {
   // 10. PIPROGRAM & PICANVA SECTION
   const piprogramSection = `
     <section id="group-piprogram" class="catalog-group space-y-4">
-      ${renderSectionHeader("piprogram & picanva Slide Graphics", "d:\\piprogram & d:\\picanva", "PiPGM slide renderer, Canva presentation synchronizer & projector picMute control.")}
+      ${renderSectionHeader("piprogram & canva-pieco-app Slide Graphics", "d:\\piprogram & d:\\canva-pieco-app", "PiPGM slide renderer, Canva presentation synchronizer & projector picMute control.")}
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         ${renderSlideFeedCard({
@@ -877,7 +877,7 @@ export function buildCatalogHtml(): string {
         })}
 
         ${renderCard({
-          title: "Canva Integration Status (picanva)",
+          title: "Canva Integration Status (canva-pieco-app)",
           subtitle: "Slide Deck Synced with Altar / Lectern Screens",
           icon: "auto_awesome",
           badgeHtml: renderBadge({ label: "SYNCED", variant: "success", dot: "online", size: "xs" }),
@@ -1104,7 +1104,7 @@ export function generateFullCatalogDocument(): string {
         piswitch
       </button>
       <button type="button" class="catalog-filter-btn px-3 py-1 rounded-full text-[11px] font-label-sm font-bold uppercase transition-all bg-surface-container-high text-on-surface hover:bg-surface-container-highest" data-group="piprogram">
-        piprogram &amp; picanva
+        piprogram &amp; canva-pieco-app
       </button>
       <button type="button" class="catalog-filter-btn px-3 py-1 rounded-full text-[11px] font-label-sm font-bold uppercase transition-all bg-surface-container-high text-on-surface hover:bg-surface-container-highest" data-group="pigateway">
         pigateway
